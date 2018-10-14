@@ -564,15 +564,6 @@ echo "--- How to connect ---"
 echo
 echo "Connection instructions have been emailed to you, and can also be found in your home directory, /home/${LOGINUSERNAME}"
 
-#echo
-#echo "Shadowsocks installation started"
-#echo
-#cd /root/
-#wget https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
-#chmod +x shadowsocks-all.sh
-#./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
-
-
 # necessary for IKEv2?
 # Windows: https://support.microsoft.com/en-us/kb/926179
 # HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PolicyAgent += AssumeUDPEncapsulationContextOnSendRule, DWORD = 2
